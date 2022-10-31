@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="icon"
@@ -22,11 +23,11 @@
           ><img src="assets/images/logo.svg" alt=""
         /></a>
         <ul role="list" class="main__ul">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">New</a></li>
-          <li><a href="#">Popular</a></li>
-          <li><a href="#">Trending</a></li>
-          <li><a href="#">Categories</a></li>
+          <li><a href="#" aria-label="Home">Home</a></li>
+          <li><a href="#" aria-label="New">New</a></li>
+          <li><a href="#" aria-label="Popular">Popular</a></li>
+          <li><a href="#" aria-label="Trending">Trending</a></li>
+          <li><a href="#" aria-label="Categories">Categories</a></li>
         </ul>
         <button class="hamburger hamburger--spin" type="button">
           <span class="hamburger-box">
@@ -42,8 +43,13 @@
             <source
               media="(min-width: 791px)"
               srcset="assets/images/image-web-3-desktop.jpg"
+              aria-hidden="true"
             />
-            <img src="assets/images/image-web-3-mobile.jpg" alt="" />
+            <img
+              src="assets/images/image-web-3-mobile.jpg"
+              alt=""
+              aria-hidden="true"
+            />
           </picture>
         </div>
         <div>
@@ -55,7 +61,7 @@
             of the platforms back into the hands of the people. But is it really
             fulfilling its promise?
           </p>
-          <a href="#" class="readmore">READ MORE</a>
+          <a href="#" class="readmore" aria-label="Read More">READ MORE</a>
         </div>
         <div>
           <h2>New</h2>
@@ -77,26 +83,38 @@
       <!-- || ARTICLE -->
       <article class="main__article">
         <div>
-          <img src="assets/images/image-retro-pcs.jpg" alt="" />
+          <img
+            src="assets/images/image-retro-pcs.jpg"
+            alt=""
+            aria-hidden="true"
+          />
           <div class="articles">
             <h3>01</h3>
-            <a href="#">Reviving Retro PCs</a>
+            <a href="#" aria-label="PCs">Reviving Retro PCs</a>
             <p>What Happens when old PCs are given modern upgrades?</p>
           </div>
         </div>
         <div>
-          <img src="assets/images/image-top-laptops.jpg" alt="" />
+          <img
+            src="assets/images/image-top-laptops.jpg"
+            alt=""
+            aria-hidden="true"
+          />
           <div class="articles">
             <h3>02</h3>
-            <a href="#">Top 10 Laptops of 2022</a>
+            <a href="#" aria-label="Laptops">Top 10 Laptops of 2022</a>
             <p>Our best picks for various needs budgets/</p>
           </div>
         </div>
         <div>
-          <img src="assets/images/image-gaming-growth.jpg" alt="" />
+          <img
+            src="assets/images/image-gaming-growth.jpg"
+            alt=""
+            aria-hidden="true"
+          />
           <div class="articles">
             <h3>03</h3>
-            <a href="#">The Growth of Gaming</a>
+            <a href="#" aria-label="Gaming">The Growth of Gaming</a>
             <p>How the pandemic has sparked fresh opportunities</p>
           </div>
         </div>
