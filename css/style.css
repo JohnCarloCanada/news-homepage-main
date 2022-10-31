@@ -53,8 +53,9 @@ svg {
 
 /* || UTILITIES */
 .noscroll {
-  overflow-y: hidden;
+  overflow: hidden;
 }
+
 /* || MAIN */
 .main {
   width: 100%;

@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="dist/hamburgers.css" />
   </head>
   <body>
+    <!-- || CONTAINER -->
     <main class="main">
+      <!-- || NAVIGATION BAR -->
       <nav class="main__nav">
         <a href="#" class="main__logo"
           ><img src="assets/images/logo.svg" alt=""
@@ -33,6 +35,7 @@
         </button>
       </nav>
 
+      <!-- || SECTION -->
       <section class="main__section">
         <div>
           <picture>
@@ -71,6 +74,7 @@
         </div>
       </section>
 
+      <!-- || ARTICLE -->
       <article class="main__article">
         <div>
           <img src="assets/images/image-retro-pcs.jpg" alt="" />
@@ -99,16 +103,15 @@
       </article>
     </main>
 
+    <!-- || JS SCRIPT -->
     <script>
-      var hamburger = document.querySelector(".hamburger");
-      var navList = document.querySelector(".main__ul");
-      var overLay = document.querySelector(".overlay");
-      var noScroll = document.querySelector("body");
+      const hamburger = document.querySelector(".hamburger");
+      const navList = document.querySelector(".main__ul");
+      const noScroll = document.querySelector("body");
 
       hamburger.addEventListener("click", function () {
         hamburger.classList.toggle("is-active");
         navList.classList.toggle("mobile-menu");
-        overLay.classList.toggle("overlay-menu");
         noScroll.classList.toggle("noscroll");
       });
     </script>
