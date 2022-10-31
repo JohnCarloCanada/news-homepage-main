@@ -84,7 +84,6 @@ svg {
   padding-top: 10rem;
   margin-right: -9000px;
   transition: margin 0.5s ease-in-out;
-  box-shadow: 0 0 6px #000;
 }
 
 .hamburger {
@@ -93,6 +92,7 @@ svg {
 
 .mobile-menu {
   margin-right: 0px;
+  box-shadow: 0 0 6px #000;
 }
 .main__ul li {
   margin-bottom: 2rem;
